@@ -52,7 +52,7 @@ const Login = () => {
                         Login
                     </button>
                 </div>
-                <h6 className=' text-center m-3'>Don't have account <Link className='underline' to={"/signup"}>singup now</Link> </h6>
+                <h6 className=' text-center m-3'>Don't have account <Link className='underline ml-16 text-blue-600' to={"/signup"}>Signup</Link> </h6>
             </form>
         </div>
     )

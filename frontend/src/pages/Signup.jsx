@@ -52,11 +52,10 @@ const Signup = () => {
                     <button 
                         type='submit'
                         className="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600 transition-colors"
-                    >
-                        Signup
+                    >Signup
                     </button>
                 </div>
-                <h6 className='text-center mb-3'> Already have an account <Link to={"/login"} className='underline'>login now</Link> </h6>
+                <h6 className='text-center mb-3 mt-3'> Already have an account <Link to={"/login"} className='underline ml-16 text-blue-600'>login now</Link> </h6>
             </form>
         </div>
     )

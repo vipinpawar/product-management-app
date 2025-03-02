@@ -104,7 +104,7 @@ function Dashboard() {
           value={searchId}
           onChange={(e) => setSearchId(e.target.value)}
         />
-        <button className='m-4' onClick={handleSearch}>Search</button>
+        <button className='m-4 ' onClick={handleSearch}>Search</button>
       </div>
       {searchResult && (
         <div>
